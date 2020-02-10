@@ -1,0 +1,1 @@
+This is a copy of the google homepage. It was created as part of the Odin Project curriculum, in order to practice HTML and CSS. 
