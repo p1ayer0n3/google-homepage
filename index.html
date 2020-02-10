@@ -1,8 +1,9 @@
 <html>
     <style>
     #logo {
-        margin:auto;
         width: 100%;
+        display: block;
+        margin: 0 auto;
     }
     #top-right {
         text-align: right;
@@ -15,21 +16,24 @@
    left: 50%;
    margin-left: -(X/2)u;
    margin-top: -(Y/2)u;
-}
+    }
+    nav {
+        display: inline;
+    }
     </style>
-<div id='top-left'>
+<nav id='top-left'>
     <ul>
         <li>About</li>
         <li>Store</li>
         <li id='top-right'>Gmail</li>
         <li id='top-right'>Images</li>
     </ul>
-</div>
+</nav>
 
 
 
 <div id='logo'>
-<img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'>
+<img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png' class='center'>
     <form action='search' >
         <input type='text' bezel='10%'>
         <button type='submit'>Google Search</button>
