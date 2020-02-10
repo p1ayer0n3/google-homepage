@@ -28,6 +28,7 @@ main {
     border-style: solid;
     border-color: rgba(1,1,1,.1);
     border-width: 1px;
+    padding-left: 15px;
     
 }
 #searchbar:hover{
@@ -65,15 +66,56 @@ ul{
 
 li {
     display: inline;
+    margin-right: 15px;
+    color: rgba(1,1,1,.8);
 }
 
 .left_list {
     float: right;
 }
 
-#circle {
-    color: green;
-    width: 3px;
-    height: 3px;
+#bottombar {
+    background-color: rgba(1,1,1,.08);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+    box-shadow: 1px 0px 0px 0px;
+    margin-right: 0;
 }
 
+
+#topbar {
+    height: 75px;
+    line-height: 35px;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 0;
+    padding-top: 8px;
+    
+}
+
+
+#initial {
+    background-color: darkgreen;
+    color: white;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 35px;
+    margin-top: 0px;
+}
+.search-wrapper {
+    position: relative;
+}
+
+.search-wrapper img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+}
