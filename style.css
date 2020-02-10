@@ -15,6 +15,7 @@ main {
 
 #topright {
     text-align: right;
+    display: inline;
 }
 
 #searchbar {
@@ -28,6 +29,13 @@ main {
     border-color: rgba(1,1,1,.1);
     border-width: 1px;
     
+}
+#searchbar:hover{
+    box-shadow: .5px 1px 1px 1px rgba(1,1,1,.1);
+}
+#searchbar:focus{
+    box-shadow: .5px 1px 1px 1px rgba(1,1,1,.1);
+    outline: 0;
 }
 
 button {
